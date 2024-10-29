@@ -148,7 +148,7 @@
         </div>
         <div class="content">
             <ul>
-                <li>準備したファイル<br>Raspberry Pi 64bit OSとか</br></li>
+                <li>準備したファイル<br>Raspberry Pi 64bit OSとか</li>
                 <li>参考にしたサイト(聞きにきて）</li>
                 <li>デザイン</li>
                 <li>追加要素</li>
