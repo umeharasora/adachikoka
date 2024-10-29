@@ -10,33 +10,33 @@
             background-color: #ffffff;
             color: #333;
             margin: 0;
-            padding: 10px;
+            padding: 0; /* パディングをゼロに設定 */
         }
         .container {
-            
-            margin: auto;
+            max-width: 100%; /* 最大幅を100%に設定 */
+            margin: 0; /* マージンをゼロに設定 */
             background-color: #f7f7f7; /* 背景をやや濃いグレーに */
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 0; /* ボーダーを削除 */
+            box-shadow: none; /* シャドウを削除 */
             overflow: hidden;
-            padding: 10px; /* パディングを減らす */
+            padding: 10px; /* パディングを少しだけ残す */
         }
         h1 {
             text-align: center;
             color: #333;
-            padding: 20px;
+            padding: 10px; /* パディングを減らす */
             margin: 0;
             border-bottom: 2px solid #bbb; /* ボーダーの色を濃く */
         }
         .task-info {
-            padding: 15px;
+            padding: 10px; /* パディングを減らす */
             background-color: #e0e0e0; /* タスク情報の背景を濃いグレーに */
             border-bottom: 1px solid #bbb; /* ボーダーの色を濃く */
         }
         .section-header {
             background-color: #ddd; /* ヘッダーの背景を濃いグレーに */
             color: #333;
-            padding: 15px;
+            padding: 10px; /* パディングを減らす */
             cursor: pointer;
             margin: 0;
             display: flex;
@@ -55,7 +55,7 @@
         .content {
             display: none;
             background-color: #fff;
-            padding: 15px;
+            padding: 10px; /* パディングを減らす */
         }
         ul {
             list-style-type: disc;
