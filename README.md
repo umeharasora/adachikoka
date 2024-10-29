@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -10,16 +9,16 @@
             background-color: #ffffff;
             color: #333;
             margin: 0;
-            padding: 20; /* パディングをゼロに設定 */
+            padding: 10px; /* パディングを減らす */
         }
         .container {
-            max-width: 100%; /* 最大幅を100%に設定 */
-            margin: 0; /* マージンをゼロに設定 */
+            max-width: 60%; /* 最大幅を60%に設定 */
+            margin: auto;
             background-color: #f7f7f7; /* 背景をやや濃いグレーに */
-            border-radius: 0; /* ボーダーを削除 */
-            box-shadow: none; /* シャドウを削除 */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            padding: 10px; /* パディングを少しだけ残す */
+            padding: 5px; /* パディングを減らす */
         }
         h1 {
             text-align: center;
