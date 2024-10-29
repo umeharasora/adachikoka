@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>研究テーマ「Raspberry Pi　<br>スマート時計制作」<br></title>
+    <title>研究テーマ「Raspberry Pi　<br>スマート時計制作」</br></title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -148,10 +148,8 @@
         </div>
         <div class="content">
             <ul>
-                <li>準備したファイル</li>
-                <li>Raspberry Pi 64bit OS</li>
-                <li>参考にしたサイト</li>
-                <li>聞きにきて</li>
+                <li>準備したファイル<br>Raspberry Pi 64bit OSとか</br></li>
+                <li>参考にしたサイト(聞きにきて）</li>
                 <li>デザイン</li>
                 <li>追加要素</li>
             </ul>
