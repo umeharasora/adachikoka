@@ -12,7 +12,7 @@
             padding: 10px; /* パディングを減らす */
         }
         .container {
-            max-width: 60%; /* 最大幅を60%に設定 */
+            max-width: 100%; /* 最大幅を60%に設定 */
             margin: auto;
             background-color: #f7f7f7; /* 背景をやや濃いグレーに */
             border-radius: 10px;
