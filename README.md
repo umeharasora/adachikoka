@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 100%; /* 最大幅を90%に設定 */
+            
             margin: auto;
             background-color: #f7f7f7; /* 背景をやや濃いグレーに */
             border-radius: 10px;
