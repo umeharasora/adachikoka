@@ -10,7 +10,7 @@
             background-color: #ffffff;
             color: #333;
             margin: 0;
-            padding: 0; /* パディングをゼロに設定 */
+            padding: 20; /* パディングをゼロに設定 */
         }
         .container {
             max-width: 100%; /* 最大幅を100%に設定 */
