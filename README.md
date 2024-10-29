@@ -10,7 +10,7 @@
             background-color: #ffffff;
             color: #333;
             margin: 0;
-            padding: 0px;
+            padding: 10px;
         }
         .container {
             
