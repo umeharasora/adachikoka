@@ -13,12 +13,13 @@
             padding: 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 90%; /* 最大幅を90%に設定 */
             margin: auto;
             background-color: #f7f7f7; /* 背景をやや濃いグレーに */
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            padding: 10px; /* パディングを減らす */
         }
         h1 {
             text-align: center;
@@ -60,6 +61,16 @@
             list-style-type: disc;
             margin-left: 20px;
             padding-left: 10px;
+        }
+
+        /* モバイル用のスタイル */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em; /* タイトルのサイズを小さく */
+            }
+            .section-header {
+                font-size: 1.2em; /* セクションヘッダーのサイズを調整 */
+            }
         }
     </style>
     <script>
